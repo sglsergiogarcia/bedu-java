@@ -36,6 +36,17 @@ public class CurrencyConverter {
         Map<Integer, String> divisas = new TreeMap<>();
         divisas.put(1, "MX");
         divisas.put(1, "MX");
+     divisas.put(1, "MXN"); // Peso mexicano
+divisas.put(2, "USD"); // Dólar estadounidense
+divisas.put(3, "CAD"); // Dólar canadiense
+
+divisas.put(4, "EUR"); // Euro
+divisas.put(5, "GBP"); // Libra esterlina
+divisas.put(6, "JPY"); // Yen japonés
+divisas.put(7, "CHF"); // Franco suizo
+divisas.put(8, "AUD"); // Dólar australiano
+divisas.put(9, "NZD"); // Dólar neozelandés
+divisas.put(10, "BRL"); // Real brasileño
 
         do {
             System.out.println(SEP);
